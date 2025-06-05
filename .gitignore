@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Selenium screenshots or test artifacts
+*.png
+/test-output/
+
+# Environment / Config
+.env
