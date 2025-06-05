@@ -2,7 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
+//cambio
 public class PaginaPrincipal extends BasePage {
     private final String inputNameContactForm = "//input[@placeholder='Username']";
     private final String inputPasswordContactForm = "//input[@placeholder='Password']";
