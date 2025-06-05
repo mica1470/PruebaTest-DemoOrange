@@ -1,7 +1,7 @@
 package pages;
 
 import org.openqa.selenium.WebElement;
-//cambio
+//CAMBIOS CON SOLICITUD DE MERGE
 public class PaginaPrincipal extends BasePage {
     private final String inputNameContactForm = "//input[@placeholder='Username']";
     private final String inputPasswordContactForm = "//input[@placeholder='Password']";
