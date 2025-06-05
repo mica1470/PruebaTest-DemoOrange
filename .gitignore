@@ -22,3 +22,4 @@ Thumbs.db
 .env
 target/*
 bin/*
+target/cucumber-reports
