@@ -1,11 +1,13 @@
 package pages;
 
 public class BoxLateral extends BasePage {
-    private final String selectPIM = "//span[normalize-space()='PIM']";
+    private final String selectBarra = "//span[normalize-space()='%s']";
     
     public void clickPIM() {
-        // Hacer clic en el elemento PIM en la barra lateral
-        find(selectPIM).click();
+        // Reemplaza el marcador de posición en sectionLink con el nombre
+        String xpathBarra = String.format(selectBarra, "PIM");
+        // Llama al método clickElement para hacer clic en el enlace de la sección
+        clickElement(xpathBarra);
     }
 
     
