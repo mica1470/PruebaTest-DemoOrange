@@ -108,5 +108,9 @@ public class BasePage {
         return optionsText;
     }
 
+    public List<WebElement> obtenerElementosPorClase(String nombreClase) {
+        return driver.findElements(By.className(nombreClase));
+    }
+
 
 }
